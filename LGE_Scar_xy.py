@@ -39,7 +39,6 @@ for n in range(18):
     lge = data_lge.get_data()
     x,y,z = lge.shape
     
- 
     
     data_myo = nib.load(MYOs[n]);
     myo = data_myo.get_data()
